@@ -9,7 +9,9 @@
   },
   "dependencies": {
     "vue": "^2.5.22",
-    "vue-router": "^3.0.1"
+    "vue-router": "^3.0.1",
+    "axios": "^0.18.0",
+    "bulma": "^0.7.2"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "^3.4.0",
@@ -21,7 +23,10 @@
     "eslint-plugin-vue": "^5.0.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.5.21",
+    "axios": "^0.18.0",
+    "pug": "^2.0.3",
+    "pug-plain-loader": "^1.0.0"
   },
   "eslintConfig": {
     "root": true,
