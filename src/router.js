@@ -5,7 +5,6 @@ import Diet from './views/Diet.vue'
 import GeneticParameters from './views/GeneticParameters.vue'
 import AlteredGeneticParameters from './views/AlteredGeneticParameters.vue'
 import And from './views/And.vue'
-import Xor from './views/Xor.vue'
 Vue.use(Router)
 
 export default new Router({
