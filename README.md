@@ -1,4 +1,7 @@
-# geneticalgorithm-front
+# geneticAlgorithm-Front
+The client implementation of a [genetic algorithm](https://github.com/Toto12345678/GeneticAlgorithm1) with [this paper](https://doi.org/10.1051/e3sconf/20183110006) as reference.
+
+This is a vue project.
 
 ## Project setup
 ```
