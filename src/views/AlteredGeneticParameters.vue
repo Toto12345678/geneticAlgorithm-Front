@@ -12,7 +12,7 @@
             label.label.is-size-6 Población inicial
             .control
               input.input(type='number' placeholder='Población' v-model='n')
-          
+
           .field.column.is-6-tablet.is-12-mobile.m-b-0
             label.label.is-size-6 Número de cromosomas
             .control
@@ -53,19 +53,19 @@
       template(v-if='result')
         .column.is-6-tablet.is-12-mobile.m-t-sm
           article.message.is-medium
-            .message-body kcal recomendadas: 
+            .message-body kcal recomendadas:
               strong {{energy}}
         .column.is-6-tablet.is-12-mobile.m-t-sm
           article.message.is-medium
-            .message-body kcal en el menú: 
+            .message-body kcal en el menú:
               strong {{sum}}
         .column.is-12.m-t-sm(v-if='result')
           p.has-text-centered.has-text-weight-bold Menú
           table.table.is-striped.is-bordered.is-fullwidth
-            thead 
+            thead
               tr.is-selected
                 th ID
-                th Grupo de comida 
+                th Grupo de comida
                 th Nombre
                 th Kcal
                 th Proteínas

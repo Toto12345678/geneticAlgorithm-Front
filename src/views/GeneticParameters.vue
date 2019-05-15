@@ -38,11 +38,11 @@
       template(v-if='result')
         .column.is-6-tablet.is-12-mobile.m-t-sm
           article.message.is-medium
-            .message-body kcal recomendadas: 
+            .message-body kcal recomendadas:
               strong {{energy}}
         .column.is-6-tablet.is-12-mobile.m-t-sm
           article.message.is-medium
-            .message-body kcal en el menú: 
+            .message-body kcal en el menú:
               strong {{sum}}
         .column.is-12.m-t-sm(v-if='result')
           p.has-text-centered.has-text-weight-bold Menú
